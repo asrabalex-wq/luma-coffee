@@ -28,6 +28,13 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'heading';
+  src: url('../fonts/heading-about.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
     --background: #0F0F0F;
     --brown: #6F4E37;
@@ -76,7 +83,7 @@ body {
 
 /* hero section */
 .hero-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/hero/hero-bg.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hero/hero-bg.png');
     background-size: cover;
     display: flex;
     align-items: center;
@@ -230,7 +237,7 @@ body {
 
 /* about section */
 .about-section {
-  background-image: url(/assets/images/about/about-bg.png);
+  background-image: url('../images/about/about-bg.png');
   height: 40vh;
   background-size:cover;
   background-repeat: no-repeat;
@@ -248,14 +255,12 @@ body {
 .about-heading {
   color: var(--cream);
   font-family: 'heading';
-  src: url(/assets/fonts/heading-about.ttf);
   font-weight: bold;
 }
 
 .about-p p {
   color: var(--brown);
   font-family: 'heading';
-  src: url(/assets/fonts/heading-about.ttf);
 }
 
 /* menu section */
@@ -290,7 +295,7 @@ body {
   padding: 20px;
   width: 300px;
   text-align: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url('/assets/images/menu/menu.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url('../images/menu/menu.png');
   background-position: center;
   background-size: cover;
   display: flex;
@@ -319,7 +324,7 @@ body {
 
 /* choose us section */
 .choose-section {
-  background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)), url(/assets/images/choose/choose.png);
+  background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)), url('../images/choose/choose.png');
   background-position: center;
   background-size: cover;
   color: var(--white);
@@ -329,7 +334,6 @@ body {
 
 .choose-section h1 {
   font-family: 'heading';
-  src: url(/assets/fonts/heading-about.ttf);
   color: var(--cream);
   padding-bottom: 20px;
 }
@@ -359,7 +363,6 @@ body {
   text-decoration: underline;
   text-transform: uppercase;
   font-family: 'heading';
-  src: url(/assets/fonts/heading-about.ttf);
   justify-content: center;
 }
 
@@ -414,7 +417,6 @@ body {
   text-decoration: underline;
   color: var(--background);
   font-family: 'heading';
-  src: url(/assets/fonts/heading-about.ttf);
 }
 
 .testi {
@@ -471,8 +473,6 @@ color:#C49A6C;
 .contact-section h1 {
   display: flex;
   font-family: 'heading';
-  src: url(/assets/fonts/heading-about.ttf);
-
 }
 
 .contact-conteiner {
