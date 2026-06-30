@@ -83,15 +83,16 @@ body {
 
 /* hero section */
 .hero-section {
+    background-color: #1a120d;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hero/hero-bg.png');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    height: 50vh;
-    background-position: center;
-    padding: 20px;
-    padding-left: 80px;
+    min-height: 60vh;
+    padding: 20px 20px 20px 80px;
 }
 
 .hero-conteiner {
@@ -237,14 +238,14 @@ body {
 
 /* about section */
 .about-section {
+  background-color: #22140f;
   background-image: url('../images/about/about-bg.png');
-  height: 40vh;
-  background-size:cover;
+  min-height: 45vh;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-left: 40%;
+  padding: 75px 30px 30px 40%;
   color: var(--white);
-  padding-top: 75px;
 }
 
 .about-title {
@@ -294,10 +295,12 @@ body {
   border-radius: 10%;
   padding: 20px;
   width: 300px;
+  min-height: 260px;
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url('../images/menu/menu.png');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -324,12 +327,13 @@ body {
 
 /* choose us section */
 .choose-section {
-  background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)), url('../images/choose/choose.png');
+  background-color: #1b130f;
+  background-image: linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)), url('../images/choose/choose.png');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   color: var(--white);
-  padding-top: 30px;
-  padding-left: 30px;
+  padding: 30px 30px 40px;
 }
 
 .choose-section h1 {
