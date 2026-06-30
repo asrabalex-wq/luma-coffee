@@ -439,7 +439,6 @@ body {
 .testi-card h2{
   color: #F5E6CA;
   font-family: 'heading';
-  src: url(/assets/fonts/heading-about.ttf);
   font-size: 1.6rem;
   font-weight: 700;
 }
